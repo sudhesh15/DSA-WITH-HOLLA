@@ -1,0 +1,16 @@
+/*
+Author : Sudhesh Holla
+Problem name : MULTIPLICATION TABLE OF A GIVEN NUMBER
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout<<"Enter a Number"<<endl;
+    cin>>n;
+    for(int i=1;i<=10;i++){
+        cout<<n <<" * " << i<< " = "<<n*i<<endl;
+    }
+}
